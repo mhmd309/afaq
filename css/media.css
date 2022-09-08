@@ -1,0 +1,67 @@
+/* Smart Phones And Tablets */
+@media (max-width:768px) {
+  .navbar .navbar-nav,
+  .header .info-header {
+    text-align: center
+  }
+  .navbar .navbar-nav .nav-link {
+    margin-bottom: 10px
+  }
+  .navbar .navbar-nav i {
+    top: 0;
+    right: 0
+  }
+  .header .info-header .img {
+    display: none
+  }
+  .images .info::before {
+    width: 200px
+  }
+  .about .box-content {
+    bottom: 0
+  }
+  .custom .box img {
+    width: 100% !important
+  }
+  .years .info-box::before {
+    right: 13px
+  }
+  /**/
+  .datials .show-datials {
+    flex-direction: column
+  }
+  .img-projects .box .img img {
+    display: none
+  }
+  .img-projects .box .c-sec .content-projects {
+    width: 150px
+  }
+  .verion .desc {
+    text-align: center !important
+  }
+  .footer .info {
+    text-align: center
+  }
+}
+/* Small Screen */
+@media (min-width:769px) and (max-width:991px) {
+  .navbar .navbar-nav {
+    text-align: center
+  }
+  .navbar .navbar-nav .nav-link {
+    margin-bottom: 10px
+  }
+  .navbar .navbar-nav i {
+    top: 0;
+    right: 0
+  }
+  .images .info::before {
+    width: 200px
+  }
+  .about .box-content {
+    bottom: 0
+  }
+
+}
+/* Medium Screen */
+@media (min-width:992px) and (max-width:1199px) {}
